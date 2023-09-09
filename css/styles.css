@@ -126,6 +126,13 @@
   position: relative;
 }
 
+@media screen and (max-width: 378px) {
+  .header-sale-mark {
+    top: 260px;
+    right: 15px;
+  }
+}
+
 .sale-number {
   position: absolute;
   top: 25%;
