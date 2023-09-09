@@ -13,6 +13,8 @@
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+
+  max-width: 390px;
 }
 
 .header {
@@ -86,8 +88,6 @@
 }
 
 .header-button {
-  position: relative;
-
   display: block;
   color: #0e0e0e;
   text-align: center;
@@ -112,9 +112,13 @@
   margin-right: auto;
 }
 
+.header .container {
+  position: relative;
+}
+
 .header-sale-mark {
   position: absolute;
-  top: 521px;
+  top: 170px;
   right: 23px;
 }
 
@@ -221,8 +225,6 @@
 /* section-one */
 
 .section-one {
-  position: relative;
-
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -230,62 +232,6 @@
 
   margin-bottom: 0;
   margin-top: 0;
-}
-
-.one-image {
-  position: absolute;
-  left: 0;
-  top: 246px;
-}
-
-.two-image {
-  position: absolute;
-  left: 0;
-  top: 487px;
-}
-
-.three-image {
-  position: absolute;
-  left: 0;
-  top: 740px;
-}
-
-.four-image {
-  position: absolute;
-  left: 0;
-  top: 940px;
-}
-
-.five-image {
-  position: absolute;
-  left: 0;
-  top: 1183px;
-}
-
-.one-coffee-image {
-  position: absolute;
-  top: 641px;
-  right: 15%;
-}
-
-.one-palm-image {
-  position: absolute;
-  left: 18%;
-  top: 846px;
-}
-
-.one-laptop-image {
-  position: absolute;
-  right: 25px;
-  top: 1000px;
-}
-
-.one-hand-image {
-  position: absolute;
-  left: 50%;
-  top: 1425px;
-
-  transform: translate(-50%, -50%);
 }
 
 .section-one .wrapper {
@@ -382,7 +328,7 @@
   margin-left: auto;
   margin-right: auto;
 
-  position: relative;
+  /* position: relative; */
 }
 
 .sect-one-button {
@@ -410,6 +356,66 @@
   margin-top: 60px;
 }
 
+.section-one .container {
+  position: relative;
+}
+
+.one-image {
+  position: absolute;
+  left: 0;
+  top: 186px;
+}
+
+.two-image {
+  position: absolute;
+  left: 0;
+  top: 397px;
+}
+
+.three-image {
+  position: absolute;
+  left: 0;
+  top: 612px;
+}
+
+.four-image {
+  position: absolute;
+  left: 0;
+  top: 798px;
+}
+
+.five-image {
+  position: absolute;
+  left: 0;
+  top: 1023px;
+}
+
+.one-coffee-image {
+  position: absolute;
+  top: 521px;
+  right: 67px;
+}
+
+.one-palm-image {
+  position: absolute;
+  left: 66px;
+  top: 724px;
+}
+
+.one-laptop-image {
+  position: absolute;
+  right: 25px;
+  top: 880px;
+}
+
+.one-hand-image {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+
+  transform: translate(-50%, -50%);
+}
+
 /* section-two */
 
 .section-two {
@@ -417,8 +423,6 @@
   padding-bottom: 120px;
 
   background: #0e0e0e;
-
-  position: relative;
 }
 
 .section-two .container {
@@ -456,7 +460,7 @@
   margin: 0;
 }
 
-.list-item {
+.list-two .list-item {
   color: #fff;
   font-family: Mulish;
   font-size: 16px;
@@ -483,10 +487,14 @@
   letter-spacing: -0.32px;
 }
 
+.section-two .container {
+  position: relative;
+}
+
 .sect-two-image {
   position: absolute;
   left: 36px;
-  top: 226px;
+  top: 160px;
 }
 
 /* section-three */
@@ -496,8 +504,6 @@
   padding-bottom: 60px;
 
   background: #0e0e0e;
-
-  position: relative;
 }
 
 .three-title {
@@ -559,6 +565,10 @@
 
   margin-top: 0;
   margin-bottom: 60px;
+}
+
+.section-three .container {
+  position: relative;
 }
 
 .three-first-stroke {
@@ -1083,8 +1093,6 @@
   padding-bottom: 120px;
 
   background: #0e0e0e;
-
-  position: relative;
 }
 
 .title-seven {
@@ -1139,9 +1147,13 @@
   border-radius: 30px;
 }
 
+.section-seven .container {
+  position: relative;
+}
+
 .prev {
   position: absolute;
-  left: 15px;
+  left: 0;
   top: 300px;
 
   background: none;
@@ -1150,7 +1162,7 @@
 
 .next {
   position: absolute;
-  right: 15px;
+  right: 0;
   top: 300px;
 
   background: none;
