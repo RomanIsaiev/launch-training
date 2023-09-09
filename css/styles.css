@@ -1008,7 +1008,7 @@
   background: #0e0e0e;
 
   position: relative;
-  z-index: -999;
+  z-index: -4;
 }
 
 .six-title {
@@ -1039,11 +1039,15 @@
   text-transform: uppercase;
 }
 
+.section-six .container {
+  position: relative;
+}
+
 .six-image {
   position: absolute;
   top: 0;
   right: 0;
-  z-index: -2;
+  z-index: -5;
 }
 
 .six-list {
