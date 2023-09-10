@@ -337,8 +337,8 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 94px;
+    padding-right: 94px;
   }
 
   .header {
@@ -379,7 +379,7 @@
   }
 
   .header-sale-mark {
-    top: 260px;
+    top: 385px;
     right: 210px;
   }
 
@@ -397,6 +397,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
   .header {
     padding-top: 128px;
     padding-bottom: 52px;
@@ -427,6 +432,11 @@
 
   .header-sale {
     font-size: 18px;
+  }
+
+  .header-sale-mark {
+    top: 260px;
+    right: 210px;
   }
 }
 
@@ -729,6 +739,28 @@
   }
 
   .one-coffee-image {
+    top: 455px;
+    right: 244px;
+  }
+
+  .one-palm-image {
+    left: 260px;
+    top: 640px;
+  }
+
+  .one-laptop-image {
+    right: 200px;
+    top: 765px;
+  }
+
+  .one-hand-image {
+    left: 45%;
+    bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .one-coffee-image {
     top: 431px;
     right: 244px;
   }
@@ -741,6 +773,11 @@
   .one-laptop-image {
     right: 122px;
     top: 720px;
+  }
+
+  .one-hand-image {
+    left: 40%;
+    bottom: 30px;
   }
 }
 
@@ -1039,6 +1076,7 @@
 
   .three-title {
     font-size: 48px;
+    max-width: 400px;
   }
 
   .three-info {
@@ -1050,6 +1088,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-content: center;
     max-height: 1321px;
     gap: 20px;
   }
@@ -1348,7 +1387,7 @@
 
   .four-title {
     font-size: 48px;
-    max-width: 319px;
+    max-width: 350px;
     margin-bottom: 60px;
   }
 
@@ -1365,7 +1404,7 @@
     margin-left: 0;
     margin-right: 0;
 
-    max-height: 839px;
+    max-height: 850px;
   }
 
   .four-list-item {
@@ -1402,6 +1441,18 @@
 
   .wrapper-two-two {
     height: 388px;
+  }
+
+  .item-title-first {
+    color: #0e0e0e;
+  }
+
+  .item-title-second {
+    color: #0e0e0e;
+  }
+
+  .item-title-second::after {
+    background-color: #0e0e0e;
   }
 }
 
