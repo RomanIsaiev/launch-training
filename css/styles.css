@@ -1702,8 +1702,8 @@
 
 .six-image {
   position: absolute;
-  top: 50px;
-  right: 0;
+  top: 40px;
+  right: -20px;
   z-index: -5;
 }
 
