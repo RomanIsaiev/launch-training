@@ -1703,7 +1703,7 @@
 .six-image {
   position: absolute;
   top: 40px;
-  right: -20px;
+  right: 0;
   z-index: -5;
 }
 
