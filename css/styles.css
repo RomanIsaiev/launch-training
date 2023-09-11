@@ -1950,3 +1950,150 @@
     height: 474px;
   }
 }
+
+/* footer */
+
+.footer {
+  padding-top: 0;
+  padding-bottom: 40px;
+
+  background: #0e0e0e;
+}
+
+.list-deal {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-deal::after {
+  content: '';
+  display: block;
+
+  height: 1px;
+  width: 100px;
+  background-color: #fff;
+
+  margin-top: 24px;
+  margin-bottom: 24px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.deal-item {
+  margin-bottom: 12px;
+}
+
+.deal-item:last-child {
+  margin-bottom: 0;
+}
+
+.deal-link {
+  text-align: center;
+  display: block;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  text-decoration: none;
+}
+
+.social-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.social-link {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.social-image {
+  margin-right: 8px;
+}
+
+.social-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.social-item:last-child {
+  margin-bottom: 0;
+}
+
+.footer-fop {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  max-width: 300px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .footer .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  .deal-link {
+    text-align: start;
+    font-size: 18px;
+  }
+
+  .social-item {
+    justify-content: end;
+  }
+
+  .social-link {
+    font-size: 18px;
+  }
+
+  .list-deal::after {
+    display: none;
+  }
+
+  .social-image {
+    width: 23px;
+  }
+
+  .footer-fop {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer .container {
+    max-width: 1280px;
+  }
+
+  .footer .container {
+    padding-left: 52px;
+    padding-right: 52px;
+  }
+}
