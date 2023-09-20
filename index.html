@@ -273,13 +273,21 @@
               </div>
             </li>
           </ul>
-          <a
+          <!-- <a
             class="sect-one-button"
             href="https://secure.wayforpay.com/button/b75c6094aac41"
             target="_blank"
             rel="nofollow"
             >ПЕРЕЙТИ ДО ПОКУПКИ</a
+          > -->
+          <button
+            id="buy-curse"
+            class="sect-one-button open-modal"
+            type="button"
+            data-modal-open-one
           >
+            ПЕРЕЙТИ ДО ПОКУПКИ
+          </button>
         </div>
       </section>
       <section class="section-two">
@@ -783,12 +791,20 @@
               </td>
             </tr>
           </table>
-          <a
+          <!-- <a
             class="five-button"
             href="https://secure.wayforpay.com/button/b75c6094aac41"
             target="_blank"
             rel="nofollow"
-            >ПЕРЕЙТИ ДО ПОКУПКИ</a
+            >ПЕРЕЙТИ ДО ПОКУПКИ</a -->
+          <button
+            id="buy-curse"
+            class="five-button open-modal"
+            type="button"
+            data-modal-open-two
+          >
+            ПЕРЕЙТИ ДО ПОКУПКИ
+          </button>
           >
         </div>
       </section>
@@ -977,6 +993,22 @@
         </p>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+          <img
+            src="./images/close-modal-icon.svg"
+            width="30"
+            height="30"
+            alt="close"
+          />
+        </button>
+        <script
+          type="module"
+          src="https://kwiga.com/build/js/kwiga-widget.js?t=1695233956&uuid=7b207ecd-a97f-4aa5-8791-90766196531f&producer=https://kwiga.com/"
+        ></script>
+      </div>
+    </div>
     <script src="./js/siema.min.js"></script>
     <script>
       const mySiema = new Siema();
@@ -987,6 +1019,7 @@
         .querySelector('.next')
         .addEventListener('click', () => mySiema.next());
     </script>
+    <script src="./js/modal.js" type="module"></script>
     <script src="./js/timer.js" type="module"></script>
   </body>
 </html>
