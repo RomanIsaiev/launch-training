@@ -55,7 +55,9 @@
   <body>
     <header class="header">
       <div class="container">
-        <p class="header-start">Старт інтенсиву <span>20 вересня</span></p>
+        <p class="header-start">
+          Старт інтенсиву <span><span id="dateElement"></span> вересня</span>
+        </p>
         <p class="header-title">Онлайн інтенсив</p>
         <h1 class="main-title">
           Як запустити <span class="main-title-span">власне навчання</span>
@@ -1019,6 +1021,7 @@
         .querySelector('.next')
         .addEventListener('click', () => mySiema.next());
     </script>
+    <script src="./js/data-number.js" type="module"></script>
     <script src="./js/modal.js" type="module"></script>
     <script src="./js/timer.js" type="module"></script>
   </body>
